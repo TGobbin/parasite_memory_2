@@ -8,14 +8,14 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"index_atlas_1", frames: [[0,0,1620,1620]]},
-		{name:"index_atlas_2", frames: [[0,0,1620,1620]]},
-		{name:"index_atlas_3", frames: [[0,0,1620,1620]]},
+		{name:"index_atlas_1", frames: [[0,1090,1895,495],[0,1587,1705,377],[1026,0,1017,1017],[0,0,1024,1088]]},
+		{name:"index_atlas_2", frames: [[0,0,1346,1346]]},
+		{name:"index_atlas_3", frames: [[0,0,2046,1266]]},
 		{name:"index_atlas_4", frames: [[0,0,1620,1620]]},
 		{name:"index_atlas_5", frames: [[0,0,1620,1620]]},
-		{name:"index_atlas_6", frames: [[0,0,2046,1266]]},
-		{name:"index_atlas_7", frames: [[0,0,1346,1346]]},
-		{name:"index_atlas_8", frames: [[0,1090,1895,495],[0,1587,1705,377],[1026,0,1017,1017],[0,0,1024,1088]]},
+		{name:"index_atlas_6", frames: [[0,0,1620,1620]]},
+		{name:"index_atlas_7", frames: [[0,0,1620,1620]]},
+		{name:"index_atlas_8", frames: [[0,0,1620,1620]]},
 		{name:"index_atlas_9", frames: [[305,1312,302,46],[305,1360,302,46],[1158,748,300,300],[1460,962,302,66],[1460,1030,302,66],[0,1236,303,77],[0,932,303,302],[1157,1098,302,66],[1461,1098,302,66],[1157,1166,302,66],[305,932,303,302],[1461,1166,302,66],[305,1236,302,74],[1460,748,303,72],[609,1302,302,60],[912,1234,302,66],[1216,1234,302,66],[852,672,304,302],[0,1372,302,45],[913,1302,303,51],[1218,1302,302,45],[1522,1302,302,45],[1470,0,393,356],[1520,1234,302,66],[610,976,300,300],[1460,822,302,70],[1460,894,303,66],[1218,1349,302,45],[0,1315,303,55],[912,1221,3,3],[912,976,243,243],[1310,358,571,196],[0,0,1468,334],[1310,556,492,190],[0,672,850,258],[0,336,1308,334]]}
 ];
 
@@ -328,7 +328,7 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib.CachedBmp_154 = function() {
-	this.initialize(ss["index_atlas_8"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -356,7 +356,7 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib.CachedBmp_150 = function() {
-	this.initialize(ss["index_atlas_8"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -375,7 +375,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,3088,2076);
 
 
 (lib.Cichlidogyrus_vetusmolendarius = function() {
-	this.initialize(ss["index_atlas_7"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -394,21 +394,21 @@ p.nominalBounds = new cjs.Rectangle(0,0,3088,2076);
 
 
 (lib.Cimex_lectularius_03 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_8"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Clinostomum3 = function() {
-	this.initialize(ss["index_atlas_8"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Clinostomum_1 = function() {
-	this.initialize(ss["index_atlas_8"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
@@ -421,14 +421,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,3087,1998);
 
 
 (lib.Clonorchis_sinensis = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_7"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CMKgreen = function() {
-	this.initialize(ss["index_atlas_6"]);
+	this.initialize(ss["index_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -441,7 +441,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,3088,2076);
 
 
 (lib.Fasciola_hepatica_07 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["index_atlas_6"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -454,14 +454,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,3088,2076);
 
 
 (lib.Ixodes_ricinus_03 = function() {
-	this.initialize(ss["index_atlas_4"]);
+	this.initialize(ss["index_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Schistosoma_mansoni_female_04 = function() {
-	this.initialize(ss["index_atlas_5"]);
+	this.initialize(ss["index_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -2315,31 +2315,31 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/Ancylostomaduodenalemanterior.jpeg?1763113525828", id:"Ancylostomaduodenalemanterior"},
-		{src:"images/Ancylostomaduodenalemposterior.jpeg?1763113525828", id:"Ancylostomaduodenalemposterior"},
-		{src:"images/Cichlidogyrus_vetusmolendarius_haptor.jpeg?1763113525828", id:"Cichlidogyrus_vetusmolendarius_haptor"},
-		{src:"images/Cimexlectularishead2.jpeg?1763113525828", id:"Cimexlectularishead2"},
-		{src:"images/Clonorchissinensisoralandventralsuckers.jpeg?1763113525828", id:"Clonorchissinensisoralandventralsuckers"},
-		{src:"images/Fasciolacercaria.jpeg?1763113525828", id:"Fasciolacercaria"},
-		{src:"images/Ixodesricinusmouthpieces.jpeg?1763113525828", id:"Ixodesricinusmouthpieces"},
-		{src:"images/Schistosoma_mansoni_male_04.jpeg?1763113525828", id:"Schistosoma_mansoni_male_04"},
-		{src:"images/Taeniapisiformisproglottid.jpeg?1763113525828", id:"Taeniapisiformisproglottid"},
-		{src:"images/Taeniapisiformisscolex.jpeg?1763113525828", id:"Taeniapisiformisscolex"},
-		{src:"images/index_atlas_1.png?1763113524689", id:"index_atlas_1"},
-		{src:"images/index_atlas_2.png?1763113524689", id:"index_atlas_2"},
-		{src:"images/index_atlas_3.png?1763113524689", id:"index_atlas_3"},
-		{src:"images/index_atlas_4.png?1763113524689", id:"index_atlas_4"},
-		{src:"images/index_atlas_5.png?1763113524689", id:"index_atlas_5"},
-		{src:"images/index_atlas_6.png?1763113524689", id:"index_atlas_6"},
-		{src:"images/index_atlas_7.png?1763113524689", id:"index_atlas_7"},
-		{src:"images/index_atlas_8.png?1763113524689", id:"index_atlas_8"},
-		{src:"images/index_atlas_9.png?1763113524690", id:"index_atlas_9"},
-		{src:"sounds/ButtonSFX.mp3?1763113525828", id:"ButtonSFX"},
-		{src:"sounds/WrongSFX.mp3?1763113525828", id:"WrongSFX"},
-		{src:"sounds/CorrectSFX.mp3?1763113525828", id:"CorrectSFX"},
-		{src:"sounds/WinSFX.mp3?1763113525828", id:"WinSFX"},
-		{src:"sounds/CardSFX.mp3?1763113525828", id:"CardSFX"},
-		{src:"sounds/BGM.mp3?1763113525828", id:"BGM"}
+		{src:"images/Ancylostomaduodenalemanterior.jpeg", id:"Ancylostomaduodenalemanterior"},
+		{src:"images/Ancylostomaduodenalemposterior.jpeg", id:"Ancylostomaduodenalemposterior"},
+		{src:"images/Cichlidogyrus_vetusmolendarius_haptor.jpeg", id:"Cichlidogyrus_vetusmolendarius_haptor"},
+		{src:"images/Cimexlectularishead2.jpeg", id:"Cimexlectularishead2"},
+		{src:"images/Clonorchissinensisoralandventralsuckers.jpeg", id:"Clonorchissinensisoralandventralsuckers"},
+		{src:"images/Fasciolacercaria.jpeg", id:"Fasciolacercaria"},
+		{src:"images/Ixodesricinusmouthpieces.jpeg", id:"Ixodesricinusmouthpieces"},
+		{src:"images/Schistosoma_mansoni_male_04.jpeg", id:"Schistosoma_mansoni_male_04"},
+		{src:"images/Taeniapisiformisproglottid.jpeg", id:"Taeniapisiformisproglottid"},
+		{src:"images/Taeniapisiformisscolex.jpeg", id:"Taeniapisiformisscolex"},
+		{src:"images/index_atlas_1.png", id:"index_atlas_1"},
+		{src:"images/index_atlas_2.png", id:"index_atlas_2"},
+		{src:"images/index_atlas_3.png", id:"index_atlas_3"},
+		{src:"images/index_atlas_4.png", id:"index_atlas_4"},
+		{src:"images/index_atlas_5.png", id:"index_atlas_5"},
+		{src:"images/index_atlas_6.png", id:"index_atlas_6"},
+		{src:"images/index_atlas_7.png", id:"index_atlas_7"},
+		{src:"images/index_atlas_8.png", id:"index_atlas_8"},
+		{src:"images/index_atlas_9.png", id:"index_atlas_9"},
+		{src:"sounds/ButtonSFX.mp3", id:"ButtonSFX"},
+		{src:"sounds/WrongSFX.mp3", id:"WrongSFX"},
+		{src:"sounds/CorrectSFX.mp3", id:"CorrectSFX"},
+		{src:"sounds/WinSFX.mp3", id:"WinSFX"},
+		{src:"sounds/CardSFX.mp3", id:"CardSFX"},
+		{src:"sounds/BGM.mp3", id:"BGM"}
 	],
 	preloads: []
 };
